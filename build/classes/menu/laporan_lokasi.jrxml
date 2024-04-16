@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="c24db4f3-de3d-4f6f-8116-e7f2a9f1897b">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="45"/>
+	<property name="ireport.y" value="229"/>
+	<queryString language="SQL">
+		<![CDATA[select * from lokasi]]>
+	</queryString>
+	<field name="id_lokasi" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nama_lokasi" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="alamat" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="keterangan_lokasi" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="155" splitType="Stretch">
+			<staticText>
+				<reportElement x="237" y="0" width="520" height="33" uuid="541d17d0-623b-4775-b54a-83c179d9ab8d"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="24" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PEMERINTAH DAERAH KOTA BOGOR]]></text>
+			</staticText>
+			<line>
+				<reportElement x="-1" y="153" width="802" height="1" uuid="1731f103-5731-4bc6-93d0-a0d86f5fd1a4"/>
+			</line>
+			<staticText>
+				<reportElement x="237" y="33" width="520" height="33" uuid="f5bcc137-0d4e-4a66-8f82-0a4eea339fd9"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="24" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SEKETARIAT DAERAH]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="237" y="66" width="520" height="33" uuid="2030aa9b-c64b-4d10-a4e4-e0598c13f30b"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="20" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BAGIAN HUKUM DAN HAK ASASI MANUSIA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="237" y="99" width="520" height="22" uuid="d7589dc0-6a94-470b-b378-ec7c37e43167"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="18" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Jl. Ir. H. Juanda No. 10 Kota Bogor – 16121]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="237" y="121" width="520" height="22" uuid="e465a792-6145-433b-92a1-94fbf61a0607"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="18" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Telepon (0251) 8321075  Faksimile (0251) 8326530]]></text>
+			</staticText>
+			<image>
+				<reportElement x="44" y="0" width="173" height="143" uuid="ce216e70-72f5-4a1f-8951-0db160cb4ead"/>
+				<imageExpression><![CDATA["C:\\Users\\agung\\Pictures\\Kota Bogor.png"]]></imageExpression>
+			</image>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="28" splitType="Stretch">
+			<staticText>
+				<reportElement x="277" y="0" width="257" height="25" uuid="9ad33210-151c-4dae-8454-7d8bffb82cb9"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="20" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Daftar Lokasi]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="34" splitType="Stretch">
+			<staticText>
+				<reportElement x="0" y="13" width="159" height="20" uuid="335ef42e-f1eb-4208-8d14-027ab4659a0f"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Calibri" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ ID Lokasi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="159" y="13" width="216" height="20" uuid="8d002983-f158-4d53-b668-81a65077a479"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Calibri" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ Nama Lokasi]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="376" y="13" width="234" height="20" uuid="ddf75fbf-6b7f-449e-ba77-8ed7a598d023"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Calibri" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ Alamat]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="611" y="13" width="191" height="20" uuid="5ff62853-da5f-4522-a93e-dba3ae6bb29a"/>
+				<textElement textAlignment="Center" verticalAlignment="Top">
+					<font fontName="Calibri" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ Keterangan]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="13" width="802" height="1" uuid="a78e0fa2-be21-45f8-a21b-6b34efd2480b"/>
+			</line>
+			<line>
+				<reportElement x="610" y="13" width="1" height="20" uuid="9c010778-b405-42dd-8d49-6623fe63726d"/>
+			</line>
+			<line>
+				<reportElement x="801" y="13" width="1" height="20" uuid="36a069b9-5ef3-492a-bbef-9f04eb4643ab"/>
+			</line>
+			<line>
+				<reportElement x="375" y="14" width="1" height="19" uuid="dc117308-cbb6-43ca-a10c-ca32034829b0"/>
+			</line>
+			<line>
+				<reportElement x="158" y="13" width="1" height="20" uuid="416c843e-4133-457c-97ae-d619be09e7fb"/>
+			</line>
+			<line>
+				<reportElement x="0" y="13" width="1" height="20" uuid="4c8abde3-1047-40e1-8e85-af77ce2f6abd"/>
+			</line>
+			<line>
+				<reportElement x="1" y="33" width="800" height="1" uuid="95bc7d84-4da5-47ce-90bf-0860b1b92738"/>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="21" splitType="Stretch">
+			<textField>
+				<reportElement x="161" y="0" width="214" height="20" uuid="3ef5bbcc-c3da-42a4-b953-5ed0f2ca556d"/>
+				<textElement>
+					<font fontName="Calibri" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nama_lokasi}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="158" y="0" width="1" height="20" uuid="9ba9c9de-5305-4217-a2eb-55a51b66e811"/>
+			</line>
+			<textField>
+				<reportElement x="378" y="0" width="232" height="20" uuid="0fd8632f-ad0b-4ad1-86b7-44131350bd25"/>
+				<textElement>
+					<font fontName="Calibri" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{alamat}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="614" y="0" width="187" height="20" uuid="c2ed651c-fa81-4f0f-8d23-4948cbe616fb"/>
+				<textElement>
+					<font fontName="Calibri" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{keterangan_lokasi}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="375" y="0" width="1" height="20" uuid="9de20c77-c527-482c-9a43-c21fefabeebe"/>
+			</line>
+			<line>
+				<reportElement x="610" y="0" width="1" height="20" uuid="0955f066-4b3f-4ad2-8be2-60eaa28bb89e"/>
+			</line>
+			<line>
+				<reportElement x="801" y="-1" width="1" height="20" uuid="b726c224-582f-46b4-a6a7-307222521738"/>
+			</line>
+			<line>
+				<reportElement x="0" y="-1" width="1" height="20" uuid="e121c451-4a41-4d6f-89cf-01053ef54df4"/>
+			</line>
+			<line>
+				<reportElement x="0" y="19" width="802" height="1" uuid="413df87a-daf3-43d3-a7cc-10bbfdd846c3"/>
+			</line>
+			<textField>
+				<reportElement x="3" y="0" width="155" height="19" uuid="230a1584-5045-4a24-b876-c936b077f8f0"/>
+				<textElement>
+					<font fontName="Calibri" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{id_lokasi}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="179" splitType="Stretch">
+			<staticText>
+				<reportElement x="610" y="49" width="115" height="20" uuid="0d373817-e58c-4c04-b6f1-373ef3cd0b04"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[KEPALA BAGIAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="567" y="151" width="201" height="20" uuid="866fd7ad-b6c0-4fd4-9cba-37e99ac34c14"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[Alma Wiranta, S.H., M.Si (Han)]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="651" y="23" width="100" height="20" uuid="4a78dc93-05bc-44d8-8edc-fd147a64f0cb"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("dd MMMM yyyy", new java.util.Locale("id")).format(new Date())]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="549" y="69" width="248" height="20" uuid="22d8c8bb-1622-43b8-88db-08c30c6e6b57"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[HUKUM DAN HAK ASASI MANUSIA
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="609" y="23" width="40" height="20" uuid="21380511-0012-4c0b-ba69-f0df2e3c9714"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[Bogor,]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

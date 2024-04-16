@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="null" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="a3155dbf-e367-49ef-a72a-525dcf8123fa">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="217"/>
+	<queryString language="SQL">
+		<![CDATA[select * from jabatan]]>
+	</queryString>
+	<field name="id_jabatan" class="java.lang.Integer">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="nama_jabatan" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<field name="keterangan_jabatan" class="java.lang.String">
+		<fieldDescription><![CDATA[]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="133" splitType="Stretch">
+			<staticText>
+				<reportElement x="154" y="33" width="386" height="33" uuid="2dd62666-bd36-4de2-9992-e1c93d650192"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="20" isBold="true"/>
+				</textElement>
+				<text><![CDATA[SEKETARIAT DAERAH]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="154" y="0" width="386" height="33" uuid="e9df0307-96a2-4213-bdd9-3ee4d94050a6"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="20" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PEMERINTAH DAERAH KOTA BOGOR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="154" y="85" width="386" height="14" uuid="5b9b168d-407f-4088-b215-6b811ee3dd18"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Jl. Ir. H. Juanda No. 10 Kota Bogor – 16121]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="154" y="66" width="386" height="19" uuid="4b929486-1e97-4645-b253-5638e7cd4827"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="14" isBold="true"/>
+				</textElement>
+				<text><![CDATA[BAGIAN HUKUM DAN HAK ASASI MANUSIA]]></text>
+			</staticText>
+			<image hAlign="Center">
+				<reportElement positionType="Float" x="12" y="0" width="132" height="99" uuid="14c907e6-07de-4740-9b0c-1fc66d8aa913"/>
+				<imageExpression><![CDATA["C:\\Users\\agung\\Pictures\\Kota Bogor.png"]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement x="154" y="99" width="386" height="18" uuid="754e744c-ac7a-4222-865a-655e0c20cf14"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Telepon (0251) 8321075  Faksimile (0251) 8326530]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="127" width="555" height="1" uuid="bd76e367-3932-4b14-be95-b3c20c6318a6"/>
+			</line>
+		</band>
+	</title>
+	<pageHeader>
+		<band height="36" splitType="Stretch">
+			<staticText>
+				<reportElement x="193" y="12" width="165" height="23" uuid="0e615a30-0076-4194-a6a6-d1a1a7b37496"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Form Daftar Jabatan]]></text>
+			</staticText>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="39" splitType="Stretch">
+			<rectangle>
+				<reportElement x="261" y="15" width="277" height="24" uuid="70d03c0a-c1d3-4d7e-a398-d637e2930d5f"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="145" y="15" width="116" height="24" uuid="32352cbb-74dc-4f40-8ca2-a04ff13c017a"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="145" y="15" width="116" height="20" uuid="63165200-456f-4fde-b883-513272ccd255"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[NAMA JABATAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="261" y="15" width="279" height="20" uuid="def416f3-247c-415b-9a9a-b928ee98f850"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[KETERANGAN]]></text>
+			</staticText>
+			<rectangle>
+				<reportElement x="42" y="15" width="102" height="24" uuid="7dad9638-52e5-447e-b9db-06ff4bfda85f"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="45" y="15" width="99" height="20" uuid="c8726efa-5df8-4b72-b50f-f6e2c7fecd0e"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font fontName="Times New Roman" size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ID]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="25" splitType="Stretch">
+			<rectangle>
+				<reportElement x="261" y="0" width="277" height="24" uuid="b5f27cf6-19ae-4833-bb49-b4ef18baa764"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="144" y="0" width="117" height="24" uuid="0b50eb14-aa82-44af-bd02-272cfba519ce"/>
+			</rectangle>
+			<rectangle>
+				<reportElement x="42" y="0" width="102" height="24" uuid="9d5e70dc-f27a-46ef-a7e6-400146971829"/>
+			</rectangle>
+			<textField>
+				<reportElement x="45" y="4" width="99" height="20" uuid="0b3ef26b-f8e0-423b-8749-17361348d67c"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{id_jabatan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="145" y="4" width="116" height="20" uuid="d01e8df1-1505-4966-b41b-a27a81b70e49"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{nama_jabatan}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="261" y="4" width="277" height="20" uuid="54d16d60-bfe8-4741-9228-f85dc38d8a42"/>
+				<textElement textAlignment="Center">
+					<font fontName="Times New Roman" size="12"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{keterangan_jabatan}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="189" splitType="Stretch">
+			<staticText>
+				<reportElement x="358" y="61" width="115" height="20" uuid="13b4689a-1e93-467d-8e61-473239f9f13c"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[KEPALA BAGIAN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="315" y="163" width="201" height="20" uuid="85ff639f-35cf-4811-9ab7-2d5c0f422c86"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[Alma Wiranta, S.H., M.Si (Han)]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="399" y="35" width="100" height="20" uuid="6c908fd3-c4e4-41b1-9532-0ecd896291df"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new SimpleDateFormat("dd MMMM yyyy", new java.util.Locale("id")).format(new Date())]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="297" y="81" width="248" height="20" uuid="73e64c86-688e-438b-8b35-2424aaf18915"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[HUKUM DAN HAK ASASI MANUSIA
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="357" y="35" width="40" height="20" uuid="12525336-e759-4c0e-ae13-e41130fdbd29"/>
+				<textElement>
+					<font fontName="Times New Roman" size="14"/>
+				</textElement>
+				<text><![CDATA[Bogor,]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>
